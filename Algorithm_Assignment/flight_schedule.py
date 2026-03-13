@@ -20,7 +20,7 @@ for r in routes:
     print(r[0],"-",r[1],":",r[2])
 
 
-# sort routes based on cost
+
 routes.sort(key=lambda x: x[2])
 
 parent = {}
@@ -52,7 +52,7 @@ print("\nTotal Minimum Fuel Cost:", total_cost)
 print("\nTime Complexity: O(E log E)")
 
 
-# save output to file
+
 file = open("flight_schedule_output.txt","w")
 
 file.write("Airline Flight Scheduling for Minimum Fuel Cost\n\n")
