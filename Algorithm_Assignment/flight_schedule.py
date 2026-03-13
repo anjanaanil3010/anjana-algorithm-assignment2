@@ -1,6 +1,3 @@
-# Airline Flight Scheduling for Minimum Fuel Cost
-# Using Kruskal's Algorithm
-
 airports = ["A", "B", "C", "D", "E"]
 
 routes = [
