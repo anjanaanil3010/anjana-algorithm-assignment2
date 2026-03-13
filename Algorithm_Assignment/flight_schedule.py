@@ -1,5 +1,4 @@
 airports = ["A", "B", "C", "D", "E"]
-
 routes = [
 ("A","B",4),
 ("A","C",3),
