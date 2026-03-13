@@ -1,0 +1,35 @@
+Airline Flight Scheduling for Minimum Fuel Cost
+
+Airports:
+A
+B
+C
+D
+E
+
+Routes with Fuel Cost:
+B - C : 1
+D - E : 1
+B - D : 2
+A - C : 3
+A - B : 4
+C - D : 4
+C - E : 5
+
+Possible Routes Considered:
+B - C : 1
+D - E : 1
+B - D : 2
+A - C : 3
+A - B : 4
+C - D : 4
+C - E : 5
+
+Selected Routes (Optimal Schedule):
+B - C : 1
+D - E : 1
+B - D : 2
+A - C : 3
+
+Total Minimum Fuel Cost: 7
+Time Complexity: O(E log E)
